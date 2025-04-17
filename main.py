@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import plotly.express as px
@@ -46,7 +47,7 @@ if submitted:
     "Tapping Time": tapping_time
     }
 
-    st.subheader("📋 Submitted Input Summary")
+    st.subheader("📋 Submitted")
     # st.json(inputs)    
 
 

@@ -1,0 +1,7 @@
+pages:
+  - path: main.py
+    name: BF START UP
+    icon: 🔥
+  - path: shutdown.py
+    name: BF SHUT DOWN
+    icon: 🔥
